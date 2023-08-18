@@ -7,3 +7,5 @@
 - Applicativo (Android e IOS)
 - Pulseira
 - Monitoramento em tempo real
+
+[Documentação](/README.md)

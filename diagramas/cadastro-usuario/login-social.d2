@@ -1,0 +1,62 @@
+direction: right
+# Objetos
+
+Firebase: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+Aplicativo: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+Middleware: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+Backend: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+
+
+# Relacionamentos
+
+Aplicativo -> Firebase: Efetua o\n login {
+  style: {
+    font-size: 25
+    bold: true
+  }
+}
+
+Firebase -> Aplicativo: Informações\n do usuário {
+  style: {
+    font-size: 25
+    bold: true
+  }
+}
+
+Aplicativo -> Middleware: Cadastro\n de usuário {
+  style: {
+    font-size: 25
+    bold: true
+  }
+}
+
+Middleware -> Backend: Finalizar\n cadastrao {
+  style: {
+    font-size: 25
+    bold: true
+  }
+}

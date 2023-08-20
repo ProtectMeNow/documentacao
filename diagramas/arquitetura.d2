@@ -1,0 +1,130 @@
+# Objetos
+Pulseira: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+Aplicativo: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+Middleware: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+Backend: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+Firebase: {
+  style: {
+    font-size: 30
+  }
+  shape: stored_data
+}
+
+Filas: {
+  style: {
+    font-size: 30
+  }
+  shape: queue
+}
+
+Banco de dados: {
+  style: {
+    font-size: 30
+  }
+  shape: cylinder
+}
+
+
+
+# Relacionamento
+Pulseira -> Middleware: {
+  style: {
+    stroke: green
+  }
+}
+
+Middleware -> Aplicativo: {
+  style: {
+    stroke: red
+  }
+}
+Middleware <- Aplicativo: {
+  style: {
+    stroke: red
+  }
+}
+
+Backend <- Middleware: {
+  style: {
+    stroke: gold
+  }
+}
+Backend -> Middleware: {
+  style: {
+    stroke: gold
+  }
+}
+
+Firebase -> Aplicativo: {
+  style: {
+    stroke: orange
+  }
+}
+Firebase <- Aplicativo: {
+  style: {
+    stroke: orange
+  }
+}
+
+Firebase -> Middleware: {
+  style: {
+    stroke: skyblue
+  }
+}
+Firebase <- Middleware: {
+  style: {
+    stroke: skyblue
+  }
+}
+
+Middleware -> Filas: {
+  style: {
+    stroke: blueviolet
+  }
+}
+
+Backend <- Filas: {
+  style: {
+    stroke: aquamarine
+  }
+}
+Backend -> Filas: {
+  style: {
+    stroke: aquamarine
+  }
+}
+
+Backend <- Banco de dados: {
+  style: {
+    stroke: blue
+  }
+}
+Backend -> Banco de dados: {
+  style: {
+    stroke: blue
+  }
+}

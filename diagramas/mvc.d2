@@ -1,0 +1,72 @@
+direction: right
+
+Usuário: {
+  shape: person
+}
+
+Controller: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+Model: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+View: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+Banco de dados: {
+  shape: cylinder
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+
+
+Usuário -> Controller: {
+  style: {
+   stroke: red
+  }
+}
+Controller -> Model: {
+  style: {
+   stroke: cyan
+  }
+}
+Model -> Controller: {
+  style: {
+   stroke: white
+  }
+}
+Controller -> View: {
+  style: {
+   stroke: cyan
+  }
+}
+View -> Usuário: {
+  style: {
+   stroke: gold
+  }
+}
+Banco de dados -> Model: {
+  style: {
+   stroke: violet
+  }
+}
+Model -> Banco de dados: {
+  style: {
+   stroke: white
+  }
+}

@@ -5,6 +5,12 @@
         * [Branches](/desenvolvimento/git-github/branches.md)
         * [Commit](/desenvolvimento/git-github/commit.md)
         * [Pull Request (PR)](/desenvolvimento/git-github/pull-request.md)
+    * [Arquitetura](/arquitetura/)
+        * [Aplicativo](/arquitetura/aplicativo.md)
+            * [IOS](/arquitetura/aplicativo.md?id=ios)
+            * [Android](/arquitetura/aplicativo.md?id=android)
+        * [Backend](/arquitetura/backend.md)
+        * [Middleware](/arquitetura/middleware.md)
 
 * Fluxos da Aplicação
 

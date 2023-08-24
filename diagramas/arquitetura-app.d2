@@ -1,0 +1,50 @@
+direction: right
+Model: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+View Model: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+\(View\) Controller: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+View: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+
+Model <- View Model
+Model <-> View Model: {
+    style: {
+        stroke-dash: 3
+    }
+}
+
+View Model <- \(View\) Controller
+View Model <-> \(View\) Controller: {
+    style: {
+        stroke-dash: 3
+    }
+}
+
+\(View\) Controller -> View
+\(View\) Controller <-> View: {
+    style: {
+        stroke-dash: 3
+    }
+}

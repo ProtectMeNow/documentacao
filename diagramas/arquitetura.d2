@@ -48,6 +48,13 @@ Banco de dados: {
   shape: cylinder
 }
 
+S3: {
+  style: {
+    font-size: 30
+  }
+  shape: cloud
+}
+
 
 
 # Relacionamento
@@ -126,5 +133,17 @@ Backend <- Banco de dados: {
 Backend -> Banco de dados: {
   style: {
     stroke: blue
+  }
+}
+
+Middleware -> S3: {
+  style: {
+    stroke: lime
+  }
+}
+
+S3 -> Middleware: {
+  style: {
+    stroke: lime
   }
 }

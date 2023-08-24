@@ -9,6 +9,7 @@ O sistema está distribuído nos seguites componentes:
 - Firebase
 - Middleware (PHP com symfony)
 - Pulseira (Sistema embarcado)
+- S3 AWS
 
 ![arquitetura](../_media/arquitetura.svg)
 

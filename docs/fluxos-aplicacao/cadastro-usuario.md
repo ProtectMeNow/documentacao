@@ -36,11 +36,10 @@ Ordem das ações do fluxo acima:
 1. Registrar login (Aplicativo -> Middleware)
 2. Criar usuário (Middleware -> Firebase)
 3. Confirmação de usuário criado (Firebase -> Middleware)
-4. Pré-cadastro (Middleware -> Backend)
-5. Logar e prosseguir com o cadastro (Middleware -> Aplicativo)
-6. Efetuar o login (Aplicativo -> Firebase)
-7. Cadastro de usuário (Aplicativo -> Middleware)
-8. Finalizar cadastro (Middleware -> Backend)
+4. Logar e prosseguir com o cadastro (Middleware -> Aplicativo)
+5. Efetuar o login (Aplicativo -> Firebase)
+6. Cadastro de usuário (Aplicativo -> Middleware)
+7. Finalizar cadastro (Middleware -> Backend)
 
 ##### Endpoint, sem login social
 

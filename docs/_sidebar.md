@@ -3,8 +3,17 @@
     * [Documentação](/README.md)
     * [Git e Github](/desenvolvimento/git-github/)
         * [Branches](/desenvolvimento/git-github/branches.md)
+            * [Introdução](/desenvolvimento/git-github/branches.md?id=introdução)
+            * [Nome de branches](/desenvolvimento/git-github/branches.md?id=nome-de-branches)
+            * [Como criar branch](/desenvolvimento/git-github/branches.md?id=como-criar-branch)
         * [Commit](/desenvolvimento/git-github/commit.md)
         * [Pull Request (PR)](/desenvolvimento/git-github/pull-request.md)
+    * [Arquitetura](/arquitetura/)
+        * [Aplicativo](/arquitetura/aplicativo.md)
+            * [IOS](/arquitetura/aplicativo.md?id=ios)
+            * [Android](/arquitetura/aplicativo.md?id=android)
+        * [Backend](/arquitetura/backend.md)
+        * [Middleware](/arquitetura/middleware.md)
 
 * Fluxos da Aplicação
 

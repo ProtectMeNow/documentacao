@@ -1,0 +1,68 @@
+direction: right
+shape: sequence_diagram
+
+main: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+develop: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+feature: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+fix: {
+  style: {
+    border-radius: 6
+    font-size: 30
+  }
+}
+
+
+
+main.a -> develop.a: {
+  style: {
+   stroke: gold
+  }
+}
+
+develop.a.a -> feature.p1: {
+  style: {
+   stroke: cyan
+  }
+}
+
+feature.p1 -> develop.a.a: {
+  style: {
+   stroke: cyan
+  }
+}
+
+develop.a.b -> fix.p1: {
+  style: {
+   stroke: red
+  }
+}
+
+fix.p1 -> develop.a.b: {
+  style: {
+   stroke: red
+  }
+}
+
+develop.a -> main.b: {
+  style: {
+   stroke: gold
+  }
+}
